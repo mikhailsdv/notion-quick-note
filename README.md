@@ -15,8 +15,8 @@ npm i
 Press Enter and wait until all the dependencies are installed (1-2 mins). On Windows to launch terminal you can open root folder of the project → click «File» on the top left corner → Windows PowerShell.
 
 4. Find `/src/config.example.js` and rename it to `config.js`.
-5. Go to [@BotFather](https://t.me/BotFather) and create your Telegram-bot. You will get your bot token at the end. Copy the token → open `/src/config.js` with any text editor → paste it after `BOT_TOKEN` between brakes and save.
-6. Go to https://www.notion.so/my-integrations (you will be asked to login) → click «New integration» → give any name and click «Submit» → copy your Internal Integration Token → paste it after `NOTION_SECRET` between brakes and save.
+5. Go to [@BotFather](https://t.me/BotFather) and create your Telegram-bot. You will get your bot token at the end. Copy the token → open `/src/config.js` with any text editor → paste it after `BOT_TOKEN` between brackets and save.
+6. Go to https://www.notion.so/my-integrations (you will be asked to login) → click «New integration» → give any name and click «Submit» → copy your Internal Integration Token → paste it after `NOTION_SECRET` between brackets and save.
 7. Open Notion and create new page «Quick notes» → click «Share» → choose your integration from previous paragraph.
 8. Launch you bot. There are a few options.
 
